@@ -1,0 +1,9 @@
+package default_package;
+
+public class FirstTest {
+	public void Test() {
+		
+		
+	}
+
+}

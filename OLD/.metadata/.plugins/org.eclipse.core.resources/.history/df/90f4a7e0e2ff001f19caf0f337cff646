@@ -1,0 +1,15 @@
+package org.testng.annotations;
+
+@Test
+
+public class FirstSeleniumTest {
+
+	public void OpenSiteInChrome() {
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
