@@ -30,19 +30,19 @@ public class projet2 {
 			
 			System.out.println(driver.getTitle());
 			
-			/*//Maximiser l'affichage
+			//Maximiser l'affichage
 			driver.manage().window().maximize();
 			
 			driver.manage().window().minimize();
 			
-			driver.manage().window().fullscreen();*/
+			driver.manage().window().fullscreen();
 			
-			driver.manage().window().getSize().getWidth();
+			/*driver.manage().window().getSize().getWidth();
 			driver.manage().window().getSize().getHeight();
 			Dimension size = driver.manage().window().getSize();
 			
 			System.out.println(size.getWidth());
-			System.out.println(size.getHeight());
+			System.out.println(size.getHeight());*/
 			
 			
 			//driver.manage().window().setSize(new Dimension(400,450));
