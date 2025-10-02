@@ -48,8 +48,9 @@ public class projet5 {
 			
 			   // Entrer le mot clé dans la barre de recherche
 			//driver.findElement(By.name("search")).sendKeys("leadership");
+			//driver.findElement(By.id("searchInput")).sendKeys("leadership");
 			 WebElement searchBox = driver.findElement(By.name("search"));
-		        searchBox.sendKeys("leadership");
+		     searchBox.sendKeys("leadership");
 			
 			// Cliquer sur le bouton "Rechercher"
 			/*WebElement searchButton = driver.findElement(By.xpath("//button[@type='submit']"));
@@ -58,6 +59,14 @@ public class projet5 {
 	        WebElement searchButton = driver.findElement(By.cssSelector("button.pure-button"));
 	        searchButton.click();
 	        
+	        
+	        driver.get("https://www.google.com/");
+			/*driver.findElement(By.name("q")).sendKeys("Voiture 2022") ;
+			driver.findElement(By.name("q")).submit();*/
+			WebElement Recherche = driver.findElement(By.name("q"));
+			Recherche.sendKeys("Je suisexperte");
+			Recherche.submit();
+
 	        
 	        try {
 	            Thread.sleep(3000); // attendre 3 secondes
